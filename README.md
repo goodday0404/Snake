@@ -2,7 +2,11 @@
 
 ![image](https://user-images.githubusercontent.com/28790865/117322335-ea3c2800-ae5b-11eb-8f59-c0eb6a1e66c3.png)
 
+
+
 IMPORTANT: X11 needs be installed to execute this application. Please install Xming for Windows or XQuartz for macOS.
+
+
 
 ** Instruction to execute **
 
@@ -10,6 +14,7 @@ IMPORTANT: X11 needs be installed to execute this application. Please install Xm
 2. Enter this execution command: ./snake [FPS] [snake_speed] 
 
 Recommended test setting FPS = 25 - 60, speed = 3, 4, or 5
+
 
 
 ** Enhancement **
