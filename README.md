@@ -4,14 +4,14 @@
 
 
 
-# IMPORTANT: 
-X11 needs be installed to execute this application. Please install Xming for Windows or XQuartz for macOS. 
+## IMPORTANT: 
+X11 needs be installed to execute this application. Please install *Xming* for Windows or *XQuartz* for macOS. 
 For macOS users, after installing XQuartz, you may add a symlink to your X11 installation folder by just entering
-ln -s /opt/X11/include/X11 /usr/local/include/X11  command.
+*ln -s /opt/X11/include/X11 /usr/local/include/X11*  command.
 
 
 
-** Instruction to execute **
+### ** Instruction to execute **
 
 1. Compile the file by 'make' commend
 2. Enter this execution command: ./snake [FPS] [snake_speed] 
@@ -20,17 +20,17 @@ Recommended test setting FPS = 25 - 60, speed = 3, 4, or 5
 
 
 
-** Enhancement **
+### ** Enhancement **
 
 	: Invincible and Double score portions. See item description below.
 
 
-1. Objective: 
+#### 1. Objective: 
 
 	Earn the highest score by eating as many fruit as you can.
 
 
-2. Key Control:
+#### 2. Key Control:
 
 	Move and change direction using arrow keys.
 
@@ -48,18 +48,18 @@ Recommended test setting FPS = 25 - 60, speed = 3, 4, or 5
 
 	q: Quit game.
 
-3. Change Snake's Direction:
+#### 3. Change Snake's Direction:
 
 	Snake moves towards the direction of the arrow key pressed. However, it cannot turn 180 degrees. Only turn 90 degree turns are avaliable (left and right turns).
 
-4. Snake Dies When:
+#### 4. Snake Dies When:
 
 	It crashes into any of the four walls.
 
 	Snake head eats its own body (unless it has previously ate an invicible potion).
 
 
-5. Items:
+#### 5. Items:
 
 	Fruit: 
 
@@ -93,13 +93,13 @@ Recommended test setting FPS = 25 - 60, speed = 3, 4, or 5
 
 		Background colour changes in the same way with the invincible potion, but will turn magenta instead of cyan. 
 
-5. Growing Snake:
+#### 5. Growing Snake:
 
 	With each fruit eaten, the snake's body will increase in length by (moving speed * 5). Thus care should be taken when eating fruit near walls. This is why items are not generated on the corner edges.
 
 
 
-6. Others:
+#### 6. Others:
 
 	a. Initial snake size and how much it grows depend on the moving speed.
 
