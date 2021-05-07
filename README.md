@@ -7,7 +7,8 @@
 ## IMPORTANT: 
 X11 needs be installed to execute this application. Please install **Xming** for Windows or **XQuartz** for macOS. 
 For macOS users, after installing XQuartz, you may add a symlink to your X11 installation folder by just entering
-**ln -s /opt/X11/include/X11 /usr/local/include/X11**  command.
+**ln -s /opt/X11/include/X11 /usr/local/include/X11**  command, to avoid **fatal error: 'X11/Xlib.h' file not found
+#include <X11/Xlib.h>** .
 
 
 
